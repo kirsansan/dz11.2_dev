@@ -1,4 +1,5 @@
 def make_upper(my_string: str) -> str:
+    """ return string in UPPER format"""
     return my_string.upper()
 
 
@@ -14,6 +15,7 @@ def make_title(my_string: str) -> str:
 
 
 def test():
+    """ func for local testing""""
     print(make_upper("qwerty"))
     print(make_title("obey your master (c) metallica"))
 
